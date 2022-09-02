@@ -11,6 +11,7 @@
 		F18CA94028C2671C008EECD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CA93F28C2671C008EECD6 /* ContentView.swift */; };
 		F18CA94228C2671E008EECD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18CA94128C2671E008EECD6 /* Assets.xcassets */; };
 		F18CA94528C2671E008EECD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18CA94428C2671E008EECD6 /* Preview Assets.xcassets */; };
+		F18CA94D28C2681F008EECD6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F18CA94C28C2681F008EECD6 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F18CA93F28C2671C008EECD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F18CA94128C2671E008EECD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18CA94428C2671E008EECD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F18CA94C28C2681F008EECD6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		F18CA94E28C26947008EECD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		F18CA93C28C2671C008EECD6 /* businesscard */ = {
 			isa = PBXGroup;
 			children = (
+				F18CA94E28C26947008EECD6 /* Info.plist */,
+				F18CA94B28C26807008EECD6 /* fonts */,
 				F18CA93D28C2671C008EECD6 /* businesscardApp.swift */,
 				F18CA93F28C2671C008EECD6 /* ContentView.swift */,
 				F18CA94128C2671E008EECD6 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				F18CA94428C2671E008EECD6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F18CA94B28C26807008EECD6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F18CA94C28C2681F008EECD6 /* Montserrat-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18CA94D28C2681F008EECD6 /* Montserrat-Regular.ttf in Resources */,
 				F18CA94528C2671E008EECD6 /* Preview Assets.xcassets in Resources */,
 				F18CA94228C2671E008EECD6 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = P7GGXARLQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = businesscard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = P7GGXARLQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = businesscard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
